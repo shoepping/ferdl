@@ -11,23 +11,19 @@ if (! (pkg %in% rownames(installed.packages()))) { install.packages(pkg) }
 # Now we download, install and initialize the H2O package for R.
 install.packages("h2o", type="source", repos="http://h2o-release.s3.amazonaws.com/h2o/rel-xia/2/R")
 
-install.packages("rvest")
-install.packages("Rcrawler")
-
-install.packages("doParallel")
-
-install.packages("readtext")
-install.packages("stringi")
-install.packages("quanteda")
 install.packages("compiler")
 install.packages("data.table")
-install.packages("urltools")
-install.packages("textutils")
-install.packages("stopwords")
-install.packages("Rcrawler")
+install.packages("doParallel")
+install.packages("future")
+install.packages("promises")
+install.packages("quanteda")
+install.packages("readtext")
 install.packages("rvest")
+install.packages("Rcrawler")
 install.packages("shiny")
 install.packages("shinyjs")
-install.packages("futures")
-install.packages("promises")
+install.packages("stopwords")
+install.packages("stringi")
+install.packages("textutils")
+install.packages("urltools")
 
