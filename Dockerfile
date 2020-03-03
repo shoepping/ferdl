@@ -9,4 +9,4 @@ RUN apt-get install -y \
 
 COPY install.R /opt/install.R
 RUN R -f /opt/install.R
-
+WORKDIR /opt/machinelearning
