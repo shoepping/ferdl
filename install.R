@@ -29,3 +29,16 @@ install.packages("textutils")
 install.packages("tidyr")
 install.packages("urltools")
 
+install.packages("keyring")
+install.packages("knitr")
+install.packages("kableExtra")
+install.packages("dplyr")
+install.packages("rJava")
+install.packages("RJDBC")
+
+
+
+
+
+
+
