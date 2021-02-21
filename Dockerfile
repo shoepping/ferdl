@@ -1,4 +1,4 @@
-FROM r-base:4.0.4
+FROM r-base:3.6.3
 
 RUN apt-get update
 RUN apt-get install -y \
