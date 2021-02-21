@@ -6,6 +6,8 @@ RUN apt-get install -y \
 	libpoppler-cpp-dev \
 	libssl-dev \
 	libsodium-dev \
+	default-jdk \
+        r-cran-rjava \
 	libxml2-dev
 
 COPY install.R /opt/install.R
