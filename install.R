@@ -35,6 +35,10 @@ install.packages("kableExtra")
 install.packages("dplyr")
 install.packages("rJava")
 install.packages("RJDBC")
+install.packages("formattable")
+install.packages("openxlsx")
+install.packages("data.table")
+install.packages("DT")
 
 
 
