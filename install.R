@@ -28,6 +28,8 @@ install.packages("stringi")
 install.packages("textutils")
 install.packages("tidyr")
 install.packages("urltools")
+install.packages("plyr")
+install.packages("bit64")
 
 install.packages("keyring")
 install.packages("knitr")
